@@ -12,8 +12,8 @@ class DemoTestCase(unittest.TestCase):
     def test_third(self):
         time.sleep(1)
 
-    def test_failed(self):
-        raise AssertionError('Test failed!')
+#    def test_failed(self):
+#        raise AssertionError('Test failed!')
 
 if __name__ == '__main__':
     unittest.main()
