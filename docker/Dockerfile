@@ -1,3 +1,5 @@
 FROM smebberson/alpine-nginx
 
-ADD /tmp/current.tar.gz /usr/html
+RUN apk --no-cache add python
+
+ADD current.tar.gz /usr/html
