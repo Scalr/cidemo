@@ -1,3 +1,3 @@
 FROM smebberson/alpine-nginx
 
-ADD /tmp/current.tar.gz /usr/html
+ADD current.tar.gz /usr/html
